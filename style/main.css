@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    padding-left: 400px;
+    padding-top: 20px;
+    height: 34px;
+   
+}
+ 
+
+img {
+    height:92px;
+    width: 272px;
+    padding: 109px 400px 0px 600px;
+ 
+}
+
+center {
+   height: 36px;
+   line-height: 27px;
+   
+}
+.btnK,.btnI {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 10 16px;
+    text-align: center;
+    
+    }
+
+    .nav-bar li{
+        float: right;
+        list-style-type: none;
+        padding:0px 30px;
+        font-size: 15px;
+
+
+       
+    }
