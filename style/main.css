@@ -1,6 +1,9 @@
-body {
+body, html {
     padding: 0;
     margin: 0;
+    -webkit-appearance: none; 
+    font-family: 'Noto Serif KR', sans-serif;
+
 }
 
 form {
@@ -14,7 +17,7 @@ form {
 img {
     height:92px;
     width: 272px;
-    padding: 109px 400px 0px 600px;
+    padding: 209px 400px 0px 600px;
  
 }
 
@@ -23,28 +26,48 @@ center {
    line-height: 27px;
    
 }
-.btnK,.btnI {
-    background-color: #f2f2f2;
-    border: 1px solid #f2f2f2;
-    border-radius: 2px;
+
+button {
     color: #757575;
-    cursor: default;
-    font-family: arial,sans-serif;
-    font-size: 13px;
-    font-weight: bold;
-    margin: 11px 4px;
-    min-width: 54px;
-    padding: 10 16px;
-    text-align: center;
+    padding: 5px;
+    border: none;
+   
     
     }
 
-    .nav-bar li{
+    .nav-bar li {
         float: right;
         list-style-type: none;
         padding:0px 30px;
-        font-size: 15px;
-
-
+        font-size: 12px;
        
+      
+    }
+
+    a {
+
+        color: grey;
+        
+    }
+
+    .lang {
+        font-family: 'Noto Serif KR', sans-serif;
+        font-size: 12px;
+        
+      
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        height: 60px;
+        background-color: rgb(243, 243, 243);
+        font-family: 'Noto Serif KR', sans-serif;
+        color:grey;
+    }
+
+    footer p {
+        padding-left: 40px;
+        font-size: 15px;
     }
